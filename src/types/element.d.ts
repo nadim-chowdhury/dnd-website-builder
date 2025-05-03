@@ -16,6 +16,7 @@ export interface Element {
     border?: string;
     borderRadius?: number;
     zIndex: number;
+    customCSS?: string;
   };
   parentId?: string;
   children?: Element[];

@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { Element, ElementType } from "@/types/element.d";
+import { Element } from "@/types/element.d";
 
 interface BuilderState {
   elements: Element[];
